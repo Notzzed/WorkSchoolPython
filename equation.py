@@ -1,0 +1,7 @@
+x_A = float(input("Quelle est l'abscisse du premier point?"))
+y_A = float(input("Quelle est l'ordonnée du premier point?"))
+x_B = float(input("Quelle est l'abscisse du deuxième point?"))
+y_B = float(input("Quelle est l'ordonnée du deuxième point?"))
+m = float((y_B-y_A)/(x_B-x_A))
+p = float((y_B-m*x_B))
+print("L'équation de la droite passant par les points A(",x_A,";",y_A,") et B(",x_B,";",y_B,") est y =",m,"x +",p)
